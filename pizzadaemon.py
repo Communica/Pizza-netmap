@@ -6,9 +6,11 @@ import time
 import random
 
 
-ser = serial.Serial('/dev/tty.usbmodemfd121', 9600)
+ser = serial.Serial('/dev/tty.usbmodem641', 9600)
 
-watch = { 
+watch = {
+	"10.13.37.6": '7', 
+	"10.13.37.1": '5',  
 	"10.13.37.2": '6', 
 	"10.13.37.3": '2', 
 	"10.13.37.4": '3',
